@@ -26,7 +26,7 @@ function ProjectCards(props) {
           <BiLinkExternal /> &nbsp;
           {props.isBlog ? "View Blog" : "View Project"}
         </Button>
-        <Button variant="primary" href={props.web} target="_blank">
+        <Button variant="primary" href={props.web} hidden = {true} target="_blank">
           <BiLinkExternal /> &nbsp;
           {props.isBlog ? "View Blog" : "View Website"}
         </Button>
