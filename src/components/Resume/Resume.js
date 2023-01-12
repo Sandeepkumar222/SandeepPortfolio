@@ -4,7 +4,7 @@ import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
 import Resumecontent from "./ResumeContent";
 import { AiOutlineDownload } from "react-icons/ai";
-import pdf from "../../Assets/Sandeep (1) (2).pdf";
+import pdf from "../../Assets/Sandeep's Resume.pdf";
 
 function Resume() {
   return (
