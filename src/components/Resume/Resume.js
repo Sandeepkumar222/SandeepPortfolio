@@ -20,9 +20,19 @@ function Resume() {
         <Row className="resume">
           <Col md={6} className="resume-left">
             <h3 className="resume-title">Experience</h3>
+  <Resumecontent
+              title="Software Engineer at Mahathi Software pvt ltd"
+              date="Mar 2023 - Present"
+              content={[
+                "Working on the development of a Health domain application",
+                " Worked on provoiding real time video calling and dahboards for provider ease which included ranslated designs and wireframes into a highly responsive user interface and reusable components using Pexip, Material UI and Tailwind",
+                "Used Pexip and Azure Calling Services to enable video calling services",
+                "Proactively identifying and resolving software bugs, ensuring high-quality, reliable product delivery and Handling new feature requests and bugs encountered in specific versions and performing regression activities and doing changes accordingly.",
+              ]}
+            />
             <Resumecontent
               title="Software Engineer at HCL Technologies"
-              date="Dec 2020 - Present"
+              date="Dec 2020 - Mar 2023"
               content={[
                 "Working on the development of an Chat App",
                 " Translated designs and wireframes into a highly responsive user interface and reusable components using React.js.",
