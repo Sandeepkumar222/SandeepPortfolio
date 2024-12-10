@@ -4,7 +4,7 @@ import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
 import Resumecontent from "./ResumeContent";
 import { AiOutlineDownload } from "react-icons/ai";
-import pdf from "../../Assets/Sandeep's Resume.pdf";
+import pdf from "../../Assets/Kotta Sandeep kumar Resume.pdf";
 
 function Resume() {
   return (
@@ -20,12 +20,12 @@ function Resume() {
         <Row className="resume">
           <Col md={6} className="resume-left">
             <h3 className="resume-title">Experience</h3>
-  <Resumecontent
+            <Resumecontent
               title="Software Engineer at Mahathi Software pvt ltd"
               date="Mar 2023 - Present"
               content={[
                 "Working on the development of a Health domain application",
-                " Worked on provoiding real time video calling and dahboards for provider ease which included ranslated designs and wireframes into a highly responsive user interface and reusable components using Pexip, Material UI and Tailwind",
+                "Worked on providing real time video calling and dashboards for provider ease which included translated designs and wireframes into a highly responsive user interface and reusable components using Pexip, Material UI and Tailwind",
                 "Used Pexip and Azure Calling Services to enable video calling services",
                 "Proactively identifying and resolving software bugs, ensuring high-quality, reliable product delivery and Handling new feature requests and bugs encountered in specific versions and performing regression activities and doing changes accordingly.",
               ]}
