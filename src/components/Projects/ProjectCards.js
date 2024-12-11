@@ -12,7 +12,7 @@ function ProjectCards(props) {
         style={{ maxHeight: 200 }}
         alt="card-img"
       />
-      <Card.Body>
+      <Card.Body className="d-flex flex-column justify-content-between align-items-center">
         <Card.Title>{props.title}</Card.Title>
         <Card.Text style={{ textAlign: "justify" }}>
           {props.description}
@@ -26,7 +26,12 @@ function ProjectCards(props) {
           <BiLinkExternal /> &nbsp;
           {props.isBlog ? "View Blog" : "View Project"}
         </Button>
-        <Button variant="primary" href={props.web} hidden = {true} target="_blank">
+        <Button
+          variant="primary"
+          href={props.web}
+          hidden={true}
+          target="_blank"
+        >
           <BiLinkExternal /> &nbsp;
           {props.isBlog ? "View Blog" : "View Website"}
         </Button>
